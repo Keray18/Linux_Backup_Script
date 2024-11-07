@@ -1,7 +1,6 @@
 SOURCE_DIR="/home/scorpion/Documents"              
-BACKUP_DIR="/home/scorpion/backup"     
-DATE=$(date +'%Y-%m-%d')            
-BACKUP="$BACKUP_DIR/backup-$DATE" 
+BACKUP_DIR="/home/scorpion/backup"               
+BACKUP="$BACKUP_DIR/backup" 
 
 mkdir -p "$BACKUP_DIR"
 
